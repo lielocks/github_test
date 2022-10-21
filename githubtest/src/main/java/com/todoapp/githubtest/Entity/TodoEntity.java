@@ -16,6 +16,7 @@ import javax.persistence.Id;
 @NoArgsConstructor
 @AllArgsConstructor
 public class TodoEntity {
+
     @Id
     @GeneratedValue
     private Long Id;

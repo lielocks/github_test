@@ -24,4 +24,5 @@ public class TodoDto {
         this.completed = todoEntity.getCompleted();
         this.url = serviceUrl + this.id;
     }
+
 }

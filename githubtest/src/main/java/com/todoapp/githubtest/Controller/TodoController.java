@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 public class TodoController {
     private final TodoService todoService;
-
     @GetMapping("/")
     public String helloWorld() {
         return "To-do Application !";
